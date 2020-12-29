@@ -7,7 +7,6 @@ class CreateMedications < ActiveRecord::Migration[6.0]
       t.integer :refills
       t.integer :quantity
       t.string :instruction
-
       t.timestamps
     end
   end
